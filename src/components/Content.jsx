@@ -4,7 +4,7 @@ import './Content.css'
 import Form from './Form'
 import Alert from './Alert'
 import Progress from './Progress'
-import image from './../banner.jpg'
+import Banner from './Banner'
 
 const Content = () => {
 
@@ -46,10 +46,8 @@ const Content = () => {
                             </div>
                             <div id="right" className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                             
-                                { progress && <Progress /> }
+                                { progress ? <Progress /> : <Banner /> }                                
                                 
-                                {/* <img src={image} alt="banner sobre salario mínimo" 
-                                className="image-fluid" style={{ maxWidth: "100%" }} /> */}
                             </div>
                         </div>
                 </div>
