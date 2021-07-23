@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* external links */
+ul#app-external-links {
+    padding: 40px 0;
+    margin-bottom: 0;
+}
+
+ul#app-external-links li.list-inline-item {
+    margin: 20px;
+    max-width: 120px;
+    cursor: pointer;
+}
+
+ul#app-external-links li.list-inline-item a.external-links img.external-links-img {
+    width: 100%;
+}
+
+/* copyright */
+#app-copyright {
+    padding: 1rem 0;
+}
+
+#app-copyright p a#copyright-link{
+    cursor: pointer;
+}
