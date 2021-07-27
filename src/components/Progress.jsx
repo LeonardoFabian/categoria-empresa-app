@@ -13,16 +13,16 @@ const Progress = props => {
         //     </div>
         // </div>
 
-        <div class="row d-flex justify-content-center">
-            <div class="circular">
-                <div class="inner"></div>
-                <div class="number">20.2%</div>
-                <div class="circle">
-                    <div class="bar left">
-                        <div class="progress"></div>
+        <div className="row d-flex justify-content-center">
+            <div className="circular">
+                <div className="inner"></div>
+                <div className="number">20.2%</div>
+                <div className="circle">
+                    <div className="bar left">
+                        <div className="progress"></div>
                     </div>
-                    <div class="bar right">
-                        <div class="progress"></div>
+                    <div className="bar right">
+                        <div className="progress"></div>
                     </div>
                 </div>
             </div>

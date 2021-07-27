@@ -2,11 +2,18 @@ import React from 'react'
 import './Alert.css'
 import PropTypes from 'prop-types'
 
-const AlertDanger = props => {
+
+const AlertDanger = ({data, handleReset}) => {
+
+    var alertButton;
+
+    if(data.button){
+        alertButton = <button class="btn btn-lg" onClick={handleReset}>{data.buttonText}</button>
+    } 
     return (
-        <div id="app-alert" className="alert_danger">            
-            <p>No encontramos resultados que coincidan con su búsqueda</p>
-            <button class="btn btn-danger">Volver a consultar</button>
+        <div id="app-alert" className={data.type}>            
+            <p>{data.text}</p>
+            { alertButton }
         </div>
     )
 }

@@ -2,13 +2,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Form = ({data, handleSubmit, handleInput}) => {
+const Form = ({data, handleSubmit, handleChange}) => {
     
 
     return (
         <form id="app-form" onSubmit={handleSubmit}>
             <div>
-                <input className="form-control form-control-lg" type="text" placeholder="Ingresa el RNC de la empresa" value={data.rnc} onChange={handleInput}></input>
+                <input id="searchInput" name="searchInput" className="form-control form-control-lg" type="text" placeholder="Ingresa el RNC ej.: 401007363" value={data.key} onChange={handleChange} autoComplete="off"></input>
             </div>
             <input className="btn btn-lg btn-block" type="submit" value="CONSULTAR"></input>
         </form>

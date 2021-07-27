@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+footer#app-footer {
+    background-color: #003876;
+}
+
 /* external links */
 ul#app-external-links {
     padding: 40px 0;
@@ -21,9 +25,41 @@ ul#app-external-links li.list-inline-item a.external-links img.external-links-im
     width: 100%;
 }
 
+/* Certificados de Tecnología de la Información y Comunicaciones */
+#mt_tics_certificate figure {
+    /* display: block; */
+    /* margin: 20px 0; */
+}
+
+#mt_tics_certificate figure img {
+    border-radius: 100%;
+}
+
+/* footer info */
+#app-info {
+    /* background-color: #003876; */
+    padding: 40px 0;
+}
+
+#app-info #info img {
+    margin-bottom: 1rem;   
+    max-width: 350px;
+}
+
+#app-info #info p {
+    margin-bottom: 0;
+    opacity: .6;
+}
+
+
 /* copyright */
 #app-copyright {
-    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, .2);    
+    padding: .5rem 0;
+}
+
+#app-copyright p {
+    margin-bottom: 0;
 }
 
 #app-copyright p a#copyright-link{

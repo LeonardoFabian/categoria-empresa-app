@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+@keyframes hideImage {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.banner {
+    animation: hideImage 3s ease-in;
+    -webkit-animation: hideImage 3s ease-in;
+    -moz-animation: hideImage 3s ease-in;
+}
