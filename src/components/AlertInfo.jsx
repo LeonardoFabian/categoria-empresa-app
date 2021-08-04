@@ -14,11 +14,7 @@ const AlertInfo = ({data}) => {
                     <img src={mt_tics_certificate} className="img-fluid" alt="Tecnología de la Información y Comunicaciones (TICs)" style={{ borderRadius: '100%', maxWidth: '50px'}}/>
                 </div>        
                 
-                <span id="sticker-text" className="text-center h3 align-middle text-wrap">{data.stickerText}</span>
-               
-                {/* <div id="sticker-code">
-                    <small>{data.key}</small>   
-                </div> */}
+                <span id="sticker-text" className="text-center h3 align-middle text-wrap">{data.stickerText}</span>             
 
             </div>
         </div>
@@ -26,7 +22,7 @@ const AlertInfo = ({data}) => {
 }
 
 AlertInfo.propTypes = {
-
+    data: PropTypes.object
 }
 
 export default AlertInfo

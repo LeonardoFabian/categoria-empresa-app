@@ -19,7 +19,8 @@ const AlertDanger = ({data, handleReset}) => {
 }
 
 AlertDanger.propTypes = {
-
+    data: PropTypes.object,
+    handleReset: PropTypes.func
 }
 
 export default AlertDanger

@@ -16,13 +16,13 @@ ul#app-external-links {
 }
 
 ul#app-external-links li.list-inline-item {
-    margin: 20px;
-    max-width: 120px;
+    margin: 40px;
+    max-height: 80px;
     cursor: pointer;
 }
 
 ul#app-external-links li.list-inline-item a.external-links img.external-links-img {
-    width: 100%;
+    height: 80px;
 }
 
 /* Certificados de Tecnología de la Información y Comunicaciones */
